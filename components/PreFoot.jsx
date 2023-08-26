@@ -1,7 +1,7 @@
 import React from "react";
 import CustomButton from "./CustomButton";
 
-function Foot() {
+function PreFooter() {
   return (
     <div className="h-auto flex flex-col md:h-screen">
   <div className="bg-perfooter-bg relative h-auto text-center p-8 md:p-20 lg:p-32 gap-5 bg-cover bg-no-repeat bg-center md:h-3/4">
@@ -46,5 +46,5 @@ function Foot() {
   );
 }
 
-export default Foot;
+export default PreFooter;
 

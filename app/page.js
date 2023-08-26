@@ -1,8 +1,8 @@
 import Banner from '@/components/Banner'
 import Content from '@/components/Content'
-import Foot from '@/components/Foot'
+import PreFoot from '@/components/PreFoot'
 import Footer from '@/components/Footer'
-import Form from '@/components/Form'
+
 import Navbar from '@/components/Navbar'
 import Image from 'next/image'
 
@@ -14,7 +14,7 @@ export default function Home() {
 <Navbar/>
 <Banner/>
 <Content/>
-<Foot/>
+<PreFoot/>
 <Footer/>
     </main>
   )
