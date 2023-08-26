@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .navbarLi {
+    @apply hover:text-fuchsia-700 cursor-pointer duration-300;
+  }
+  .inputform{
+@apply pl-2 outline-none border-none placeholder-black bg-transparent
+  }
+}
+
+
+
